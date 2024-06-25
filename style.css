@@ -1,1 +1,15 @@
+#viz svg{
+    border:1px black;
+    background-color:blue;
+}
+.bar {
+    fill:pink;
+    opacity: 0.8;
+}
 
+.bar:hover{
+    fill:yellow; 
+    opacity:3.0;
+
+}
+    
