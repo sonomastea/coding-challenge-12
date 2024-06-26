@@ -1,13 +1,16 @@
-function main (){
-    //create visualization
-    d3.csv("mock_stock_data.csv"), function(data) {
-        svg=d3.select("svg")
-        const width=600;
-        const barHeight=30;
-        const barMargin=1;
+document.addEventListener("DOMContentLoaded", function(){
+ const svg= d3.select("#viz")
+ .append("svg")
+ .attr("width", 600)   
+ .attr("height,600");
 
-    
- } 
-}
-    
+ //scale
+ xScale= d3.scaleLinear ().domain()
+
+ 
+ // date
+  const date= new Date();
+
+
+})
         
