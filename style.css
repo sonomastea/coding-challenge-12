@@ -1,15 +1,22 @@
 #viz svg{
-    border:1px black;
-    background-color:blue;
+    font:10px sans-serif;
+  
 }
-.bar {
-    fill:pink;
-    opacity: 0.8;
-}
-
-.bar:hover{
-    fill:yellow; 
-    opacity:3.0;
+.line {
+    fill:none;
+    stroke: blue;
+    stroke-width: 2px;
 
 }
+.overlay{
+    fill:none;
+    pointer-events: all;
+
+}
+
+    focus circle{
+        fill:none;
+        stroke: lightblue;
+    }
+
     
