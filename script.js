@@ -7,9 +7,11 @@ document.addEventListener("DOMContentLoaded", function(){
  //scale
  xScale= d3.scaleLinear ().domain()
 
+ .append("g")
  
  // date
   const date= new Date();
+ .y(d => y(d.value));
 
 
 })
